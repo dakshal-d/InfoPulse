@@ -22,7 +22,7 @@ const News = (props) => {
         props.setProgress(100);
     }
     useEffect(() => {
-        document.title = "News Buzz - " + props.category.charAt(0).toUpperCase() + props.category.slice(1)
+        document.title = "Info Pulse - " + props.category.charAt(0).toUpperCase() + props.category.slice(1)
         updateNews();
         //eslint-disable-next-line
     }, [])
